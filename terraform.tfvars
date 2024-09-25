@@ -1,0 +1,12 @@
+aws_region                  = "us-east-1"
+vpc_id                      = "vpc-0312fe555095f49d9"
+vpc_cidr                    = "10.0.0.0/20"
+private_subnet_ids          = "subnet-0146cc6a310c4f3e4"
+public_subnet_ids           = "subnet-0e82d17641a6aa0ba"
+cluster_name                = "demo-eks-1"
+cluster_version             = "1.4"
+node_group_name             = "demo-eks-1-ng"
+node_group_instance_types   = "m5.large"
+node_group_desired_capacity = 3
+node_group_min_size         = 1
+node_group_max_size         = 4
